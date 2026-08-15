@@ -4,7 +4,7 @@
 
 I work on a question that segmentation benchmarks mostly skip: *is the model validated at the level that actually changes a decision?* For coronary intravascular ultrasound, Dice has saturated — so I moved the evaluation to clinical agreement, reaching **84% agreement with expert adjudication** on the plaque-burden treatment threshold and **AUROC 0.97–0.99** on the calcium threshold that determines device selection.
 
-🔗 **[yunshu's site →](https://chen-yunshu.github.io)** · [Google Scholar](https://scholar.google.com/citations?user=-mTqfsEAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yunshu-chen-22917915a/) · [ORCID](https://orcid.org/0009-0004-4772-4054)
+🔗 **[chen-yunshu.github.io](https://chen-yunshu.github.io)** · [Google Scholar](https://scholar.google.com/citations?user=-mTqfsEAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yunshu-chen-22917915a/) · [ORCID](https://orcid.org/0009-0004-4772-4054)
 
 ---
 
@@ -28,7 +28,9 @@ I work on a question that segmentation benchmarks mostly skip: *is the model val
 
 **[Genius Labbook](https://github.com/CHEN-Yunshu/Genius_Labbook)** — a git-backed research logbook CLI. Records experiments, results, figures and decisions as Markdown + YAML with automatic commits. It has driven all of my research since March 2026: **135 experiment entries across 6 projects**.
 
-> Most of my research repositories are private while the papers are under review.
+**[Cell_Collection](https://github.com/CHEN-Yunshu/Cell_Collection)** — dataset crawling, curation and standardisation for cell-segmentation research: **186 public datasets** across 7 sources, with a duplication and leakage audit run before anything reaches a benchmark.
+
+> Most of my research repositories stay private while the papers are under review.
 
 ### 🧰 Tools
 
@@ -36,4 +38,4 @@ I work on a question that segmentation benchmarks mostly skip: *is the model val
 
 ---
 
-📫 **chenyunshu9@gmail.com** · Melbourne, Australia
+📫 Melbourne, Australia · **[get in touch →](https://chen-yunshu.github.io)** (email on the Contact page)
