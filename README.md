@@ -1,41 +1,44 @@
-# Hi, I'm Yunshu 👋
+# Yunshu Chen
 
-**PhD candidate in Data Science & AI at Monash University.** Multi-modal medical and biological image analysis.
+**Medical imaging · Microscopy · Research software**
 
-I work on a question that segmentation benchmarks mostly skip: *is the model validated at the level that actually changes a decision?* For coronary intravascular ultrasound, Dice has saturated, so I moved the evaluation to clinical agreement, reaching **84% agreement with expert adjudication** on the plaque-burden treatment threshold and **AUROC 0.97–0.99** on the calcium threshold that determines device selection.
+I'm a PhD candidate at **Monash University** and a part-time Machine Learning Engineer at **PredictX Health**, based in Melbourne. I build image-analysis models, software for researchers, and the data pipelines that connect them.
 
-🔗 **[chen-yunshu.github.io](https://chen-yunshu.github.io)** · [Google Scholar](https://scholar.google.com/citations?user=-mTqfsEAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yunshu-chen-22917915a/) · [ORCID](https://orcid.org/0009-0004-4772-4054)
+My work spans coronary ultrasound measurement, cell-analysis tools used in the laboratory, and clinical data preparation with research partners.
 
----
-
-### 🔬 What I'm working on
-
-| | |
-|---|---|
-| **Coronary IVUS** | Geometry-consistent segmentation validated against clinical measurement standards, plus a **49.6M-frame foundation model** across two vendor platforms and 13 years of clinical acquisition |
-| **Agentic clinical AI** | LLM-orchestrated reporting where every number comes from a deterministic tool and none from the model, deployed on a local Qwen2.5-7B for patient privacy |
-| **Microscopy** | Cell instance segmentation at 8M+ instances, SAM2-memory-based tracking that beats a SOTA tracker with no retraining, and systematic benchmarks of resolution sensitivity |
-| **Research infrastructure** | Large-scale data pipelines, versioned lineage, and data audits that catch duplication and leakage before they reach a benchmark |
-
-### 📄 Papers
-
-- *From Pixels to Decisions: Validating Deployable Coronary IVUS Analysis at the Level That Informs Treatment* · first author, under review
-- *Clinically Aligned Geometry Constraints for Robust IVUS Vessel Boundary Segmentation* · first author, under review
-- *Confidence-Adaptive Trimap for Boundary-Precise Zebrafish Myotome Segmentation* · first author, under review
-- **IEEE ISCSLP 2022** · *Efficient Conformer-Based CTC Model for Intelligent Cockpit Speech Recognition* · [doi](https://doi.org/10.1109/ISCSLP57327.2022.10037993)
-
-### 🛠️ Open source
-
-**[Genius Labbook](https://github.com/CHEN-Yunshu/Genius_Labbook)** is a git-backed research logbook CLI. Records experiments, results, figures and decisions as Markdown + YAML with automatic commits. It has driven all of my research since March 2026: **135 experiment entries across 6 projects**.
-
-**[Cell_Collection](https://github.com/CHEN-Yunshu/Cell_Collection)** covers dataset crawling, curation and standardisation for cell-segmentation research: **186 public datasets** across 7 sources, with a duplication and leakage audit run before anything reaches a benchmark.
-
-> Most of my research repositories stay private while the papers are under review.
-
-### 🧰 Tools
-
-`PyTorch` `SAM / SAM2` `DINOv3` `nnU-Net` `MONAI` `vLLM` `Docker` `Kubernetes` `AWS` `Python` `Java` `C++` `R` `SQL`
+[**Portfolio & demos ↗**](https://chen-yunshu.github.io/) · [Publications](https://chen-yunshu.github.io/#papers) · [Google Scholar](https://scholar.google.com/citations?user=-mTqfsEAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yunshu-chen-22917915a/)
 
 ---
 
-📫 Melbourne, Australia · **[get in touch](https://chen-yunshu.github.io)** (email on the Contact page)
+## Selected work
+
+[![Image-derived IVUS vessel reconstruction alongside its matched ultrasound cross-section.](https://chen-yunshu.github.io/assets/images/work/ivus-cover.jpg)](https://chen-yunshu.github.io/#work/ivus)
+
+**[Coronary ultrasound →](https://chen-yunshu.github.io/#work/ivus)**
+
+Vessel segmentation, quantitative measurements and linked 3D views, with software that organises results for cardiologist review. The portfolio includes a recording with measurements that update alongside each cross-section. Cardiologist review is ongoing. Foundation-model research uses the existing **49.6M-frame** image collection and remains in progress.
+
+| Project | What I build |
+| :--- | :--- |
+| **[LeadCell & cell tracking](https://chen-yunshu.github.io/#work/cells)** | Cell-segmentation software with a web interface and laboratory API; tracking with SAM2 memory and studies of resolution effects. Software is in use, with model development continuing and the tracking paper under review. |
+| **[Zebrafish analysis](https://chen-yunshu.github.io/#work/fish)** | Myotome segmentation and a desktop analysis interface for biologists, developed with the Australian Regenerative Medicine Institute. Paper under review. |
+| **[PredictX Health](https://chen-yunshu.github.io/#work/other)** | Clinical data pipelines, treatment and imaging data checks, and analyses prepared for review with clinical collaborators. |
+
+**Research in progress:** [organoid dynamics](https://chen-yunshu.github.io/#work/organoids), [microscopy image synthesis](https://chen-yunshu.github.io/#work/synthesis), and [CLE image annotation](https://chen-yunshu.github.io/#work/cle). Organoid track associations and candidate events await review; synthesis is exploratory, and CLE is at the annotation stage.
+
+## Open-source tools
+
+- **[Genius Labbook](https://github.com/CHEN-Yunshu/Genius_Labbook)** — A git-backed research logbook for experiments, results, figures and decisions, stored as Markdown and YAML.
+- **[Cell_Collection](https://github.com/CHEN-Yunshu/Cell_Collection)** — Microscopy dataset collection and standardisation, with checks for duplicate images and overlap between benchmarks.
+
+Many research repositories remain private while the work is under review. Public demonstrations and project context are available on my [portfolio](https://chen-yunshu.github.io/#work).
+
+## Tools I work with
+
+**Models & imaging:** Python · PyTorch · SAM / SAM2 · nnU-Net · MONAI
+
+**Software & data:** React · PyQt · SQL · Docker · AWS
+
+---
+
+[Research background](https://chen-yunshu.github.io/#background) · [ORCID](https://orcid.org/0009-0004-4772-4054) · [Get in touch](https://chen-yunshu.github.io/)
