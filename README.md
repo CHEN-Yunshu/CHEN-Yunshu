@@ -2,9 +2,9 @@
 
 **Medical imaging · Microscopy · Research software**
 
-I'm a PhD candidate at **Monash University** and a part-time Machine Learning Engineer at **PredictX Health**, based in Melbourne. I build image-analysis models, software for researchers, and the data pipelines that connect them.
+I'm a PhD candidate at **Monash University**, based in Melbourne. I build image-analysis models, software for researchers, and the data pipelines that connect them.
 
-My work spans coronary ultrasound measurement, cell-analysis tools used in the laboratory, and clinical data preparation with research partners.
+My work spans coronary ultrasound measurement, cell-analysis tools used in the laboratory, and software for biological image analysis.
 
 [**Portfolio & demos ↗**](https://chen-yunshu.github.io/) · [Publications](https://chen-yunshu.github.io/#papers) · [Google Scholar](https://scholar.google.com/citations?user=-mTqfsEAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yunshu-chen-22917915a/)
 
@@ -22,7 +22,6 @@ Vessel segmentation, quantitative measurements and linked 3D views, with softwar
 | :--- | :--- |
 | **[LeadCell & cell tracking](https://chen-yunshu.github.io/#work/cells)** | Cell-segmentation software with a web interface and laboratory API; tracking with SAM2 memory and studies of resolution effects. Software is in use, with model development continuing and the tracking paper under review. |
 | **[Zebrafish analysis](https://chen-yunshu.github.io/#work/fish)** | Myotome segmentation and a desktop analysis interface for biologists, developed with the Australian Regenerative Medicine Institute. Paper under review. |
-| **[PredictX Health](https://chen-yunshu.github.io/#work/other)** | Clinical data pipelines, treatment and imaging data checks, and analyses prepared for review with clinical collaborators. |
 
 **Research in progress:** [organoid dynamics](https://chen-yunshu.github.io/#work/organoids), [microscopy image synthesis](https://chen-yunshu.github.io/#work/synthesis), and [CLE image annotation](https://chen-yunshu.github.io/#work/cle). Organoid track associations and candidate events await review; synthesis is exploratory, and CLE is at the annotation stage.
 
